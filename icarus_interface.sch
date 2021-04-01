@@ -505,26 +505,6 @@ F 3 "" H 1250 6900 50  0001 C CNN
 	1    1250 6900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR08
-U 1 1 6047C834
-P 3600 6900
-F 0 "#PWR08" H 3600 6750 50  0001 C CNN
-F 1 "+3.3V" H 3615 7073 50  0000 C CNN
-F 2 "" H 3600 6900 50  0001 C CNN
-F 3 "" H 3600 6900 50  0001 C CNN
-	1    3600 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 6950 3600 6950
-Wire Wire Line
-	3600 6950 3600 6900
-Wire Wire Line
-	3800 7050 3600 7050
-Wire Wire Line
-	3600 7050 3600 6950
-Connection ~ 3600 6950
 Wire Wire Line
 	1450 6950 1250 6950
 Wire Wire Line
@@ -600,7 +580,7 @@ Wire Wire Line
 Text Label 4900 6550 0    50   ~ 0
 HB_TX1
 Text Label 10200 3750 2    50   ~ 0
-HB_RX1
+HB_TX1
 Text Label 4900 7150 0    50   ~ 0
 LED_4_n
 Text Label 4900 7350 0    50   ~ 0
@@ -953,10 +933,6 @@ Text Label 2800 2800 0    50   ~ 0
 RPI_MISO0
 Text Label 2800 3000 0    50   ~ 0
 RPI_MOSI0
-Text Label 2800 3600 0    50   ~ 0
-RPI_SCL1
-Text Label 2800 3700 0    50   ~ 0
-RPI_SDA1
 Text Label 2800 3300 0    50   ~ 0
 LED_2_n
 Text Label 2800 3200 0    50   ~ 0
@@ -973,10 +949,6 @@ Wire Wire Line
 	2500 5400 2800 5400
 Text Label 2800 5400 0    50   ~ 0
 RPI_RUN_PG
-Wire Wire Line
-	2800 3700 2500 3700
-Wire Wire Line
-	2800 3600 2500 3600
 Wire Wire Line
 	2800 3300 2500 3300
 Wire Wire Line
@@ -1592,7 +1564,7 @@ F 3 "~" H 6300 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 10200 3650 2    50   ~ 0
-HB_TX1
+HB_RX1
 Text Label 2550 6550 0    50   ~ 0
 HB_TX6
 Text Label 5950 2500 2    50   ~ 0
@@ -1716,10 +1688,10 @@ F 3 "" H 2800 4700 50  0001 C CNN
 $EndComp
 Connection ~ 2800 4700
 $Comp
-L power:+3.3VA #PWR?
+L power:+3.3VA #PWR0104
 U 1 1 60E9B786
 P 7200 900
-F 0 "#PWR?" H 7200 750 50  0001 C CNN
+F 0 "#PWR0104" H 7200 750 50  0001 C CNN
 F 1 "+3.3VA" H 7215 1073 50  0000 C CNN
 F 2 "" H 7200 900 50  0001 C CNN
 F 3 "" H 7200 900 50  0001 C CNN
@@ -1727,10 +1699,10 @@ F 3 "" H 7200 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR?
+L power:+3.3VA #PWR0105
 U 1 1 60E9CCF3
 P 7550 900
-F 0 "#PWR?" H 7550 750 50  0001 C CNN
+F 0 "#PWR0105" H 7550 750 50  0001 C CNN
 F 1 "+3.3VA" H 7565 1073 50  0000 C CNN
 F 2 "" H 7550 900 50  0001 C CNN
 F 3 "" H 7550 900 50  0001 C CNN
@@ -1738,14 +1710,44 @@ F 3 "" H 7550 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR?
+L power:+3.3VA #PWR0106
 U 1 1 60E9CE72
 P 8050 900
-F 0 "#PWR?" H 8050 750 50  0001 C CNN
+F 0 "#PWR0106" H 8050 750 50  0001 C CNN
 F 1 "+3.3VA" H 8065 1073 50  0000 C CNN
 F 2 "" H 8050 900 50  0001 C CNN
 F 3 "" H 8050 900 50  0001 C CNN
 	1    8050 900 
 	1    0    0    -1  
 $EndComp
+Text Notes 550  2900 0    50   ~ 0
+GPIO25
+Text Notes 550  3100 0    50   ~ 0
+GPIO24
+Text Notes 550  3200 0    50   ~ 0
+GPIO23
+Text Notes 550  3300 0    50   ~ 0
+GPIO18
+Text Notes 550  3400 0    50   ~ 0
+GPIO15
+Text Notes 550  3600 0    50   ~ 0
+GPIO14
+Text Notes 3250 2700 0    50   ~ 0
+GPIO11
+Text Notes 3250 2800 0    50   ~ 0
+GPIO09
+Text Notes 3250 3000 0    50   ~ 0
+GPIO10
+Text Notes 3250 3100 0    50   ~ 0
+GPIO22
+Text Notes 3250 3200 0    50   ~ 0
+GPIO27
+Text Notes 3250 3300 0    50   ~ 0
+GPIO17
+NoConn ~ 2500 3600
+NoConn ~ 2500 3700
+NoConn ~ 3800 6950
+NoConn ~ 3800 7050
+Text Label 4900 6650 0    50   ~ 0
+HB_RX1
 $EndSCHEMATC
