@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "ICARUS_INTERFACE"
 Date "2021-02-22"
-Rev "0.3"
+Rev "1.0"
 Comp "EPFL ROCKETTEAM"
 Comment1 "Iacopo Sprenger"
 Comment2 ""
@@ -990,7 +990,6 @@ NoConn ~ 2500 5600
 NoConn ~ 2500 5500
 NoConn ~ 2500 5300
 NoConn ~ 2500 5200
-NoConn ~ 2500 5100
 NoConn ~ 1500 4600
 NoConn ~ 1500 4500
 NoConn ~ 2500 4600
@@ -1087,7 +1086,6 @@ NoConn ~ 3750 2000
 NoConn ~ 3750 1900
 NoConn ~ 3750 1700
 NoConn ~ 3750 1600
-NoConn ~ 3750 1400
 NoConn ~ 3750 1300
 Wire Wire Line
 	6400 5050 6400 5450
@@ -1750,4 +1748,10 @@ NoConn ~ 3800 6950
 NoConn ~ 3800 7050
 Text Label 4900 6650 0    50   ~ 0
 HB_RX1
+Wire Wire Line
+	2500 5100 2800 5100
+Wire Wire Line
+	2800 5100 2800 5000
+Connection ~ 2800 5000
+NoConn ~ 3750 1400
 $EndSCHEMATC
