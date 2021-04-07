@@ -1,0 +1,42 @@
+### Module positions - created on 04/07/21 17:59:45 ###
+### Printed by Pcbnew version kicad (5.1.9)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                 Package                   PosX       PosY       Rot  Side
+C1        10u                 C_1206_3216Metric     146.3040   -35.3060  180.0000  top
+C2        10u                 C_1206_3216Metric     146.3040   -33.0200  180.0000  top
+C3        10u                 C_1206_3216Metric     151.3840   -33.7820    0.0000  top
+C4        10u                 C_1206_3216Metric     151.3840   -36.0680    0.0000  top
+C6        33p                 C_0402_1005Metric     148.0540   -46.7360    0.0000  top
+C7        6800p               C_0402_1005Metric     148.0540   -48.5140    0.0000  top
+D1        LED                 LED_0603_1608Metric   130.3020   -30.8610   90.0000  top
+D2        LED                 LED_0603_1608Metric   132.3340   -30.8610   90.0000  top
+D3        LED                 LED_0603_1608Metric    88.2650   -45.7200  180.0000  top
+D4        D                   POWERDIODE            153.4160   -46.8630  180.0000  top
+D5        LED                 LED_0603_1608Metric    88.2650   -43.8150  180.0000  top
+D6        LED                 LED_0603_1608Metric    88.2650   -41.9100  180.0000  top
+D7        LED                 LED_0603_1608Metric    88.2650   -40.0050  180.0000  top
+D8        LED                 LED_0603_1608Metric   135.3820   -30.8610   90.0000  top
+IC1       MC74VHC1GT50DBVT1G  SOT65P210X110-5N      127.2540   -35.8140    0.0000  top
+IC2       TPS54540BDDA        SOIC127P600X170-9N    148.0820   -42.4180  270.0000  top
+J1        MEZZANINE           MEZZANINE             112.6300   -33.6060  180.0000  top
+J2        MEZZANINE           MEZZANINE             112.6300   -67.6060  180.0000  top
+L1        4.7u                L_Bourns_SRN6045TA    149.6060   -54.1020  270.0000  top
+R1        160k                R_0805_2012Metric     144.2720   -40.6400  270.0000  top
+R2        1k                  R_0805_2012Metric     130.3020   -33.9090  270.0000  top
+R3        1k                  R_0805_2012Metric     132.3340   -33.9090  270.0000  top
+R4        1k                  R_0805_2012Metric      92.0750   -45.7200    0.0000  top
+R5        13.3k               R_0805_2012Metric     146.3040   -47.7520  270.0000  top
+R6        1k                  R_0805_2012Metric      92.0750   -43.8150    0.0000  top
+R7        53.6k               R_0805_2012Metric     144.2720   -47.6485   90.0000  top
+R8        10.2k               R_0805_2012Metric     144.2720   -44.4500   90.0000  top
+R9        1k                  R_0805_2012Metric      92.0750   -41.9100    0.0000  top
+R10       1k                  R_0805_2012Metric      92.0750   -40.0050    0.0000  top
+R11       1k                  R_0805_2012Metric     134.3660   -33.9090  270.0000  top
+R12       511k                R_0805_2012Metric     147.0660   -37.5920  180.0000  top
+R13       82.5k               R_0805_2012Metric     143.7640   -37.5920  180.0000  top
+R16       1k                  R_0805_2012Metric     118.8720   -40.3860  270.0000  top
+R17       1k                  R_0805_2012Metric     116.8400   -40.3860  270.0000  top
+R18       1k                  R_0805_2012Metric     114.8080   -40.3860  270.0000  top
+R19       1k                  R_0805_2012Metric     134.3660   -37.3380  270.0000  top
+## End
