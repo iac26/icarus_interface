@@ -1,4 +1,4 @@
-19103571721060230
+19105189605009524
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83033,6 +83033,13 @@ Connector
 0
 200
 100
+icarus_interface
+CM4_Mounting_hole
+Mounting Hole 2.7mm, no annular, M2.5, ISO7380
+mounting hole 2.7mm no annular m2.5 iso7380
+0
+0
+0
 icarus_interface
 Diode
 V8PAM10SHM3/H-2
